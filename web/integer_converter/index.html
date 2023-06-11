@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>base_converter</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id='app_window'>
+
+      <!-------------------------------------------------- window title -->
+      <h1>Integer Converter</h1>
+      <hr>
+
+      <form oninput="update()">
+        <!-------------------------------------------------- integer input -->
+        <label for="integer_in">Enter integer:</label>
+        <input type="number" id="integer_in" min="1" max="67108864"></br>
+        <hr>
+        
+        <!-------------------------------------------------- binary output -->      
+        <label for="bin_out">BIN:</label>
+        <input type="text" id="bin_out" readonly></br>
+        <!--------------------------------------------------- octal output -->   
+        <label for="oct_out">OCT:</label>
+        <input type="text" id="oct_out" readonly></br>
+        <!--------------------------------------------- hexadecimal output -->   
+        <label for="hex_out">HEX:</label>
+        <input type="text" id="hex_out" readonly></br>
+    </form>
+    <hr>
+
+      <!----------------------------------------------- background image -->   
+      <div id='backdrop'></div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

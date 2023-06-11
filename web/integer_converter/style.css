@@ -1,0 +1,43 @@
+body{
+  font: 14px Courier, sans-serif;
+}
+
+div{
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 10px;
+}
+
+#app_window{
+  margin: 16px auto 0px auto;
+  padding: 15px 20px;
+  width: 260px; height: 440px;
+  background-color:#d9d6ce;
+}
+
+h1{
+  text-align: center;
+  margin: 0px 0px 8px 0px; /* Set margin to zero to reset defaults */
+  font: bold 28px Arial, sans-serif;
+}
+
+hr{
+  margin: 5px 0px 15px 0px;
+  background-color: rgb(124, 124, 124);
+  height: 1px;
+  border: 0px;
+}
+
+label{
+  display:inline-block;
+  margin: 0px 0px 15px 5px;
+}
+
+#integer_in{
+  width: 10ch;
+}
+
+#backdrop{
+  height: 196px;
+  border-radius: 4px;
+  background-image: url("binary.jpg");
+}

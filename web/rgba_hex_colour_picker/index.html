@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+</head>
+
+<body onload="change()">
+
+  <div id="app_window">
+
+    <h1>RGBA HEX Colour Picker</h1>
+    <hr>
+
+    <form oninput="change()">
+
+      <label>R:</label>
+      <input type="range" id="red_in" min="0" max="255" value="50">
+
+      <label>G:</label>
+      <input type="range" id="green_in" min="0" max="255" value="50"><br>
+
+      <label>B:</label>
+      <input type="range" id="blue_in" min="0" max="255" value="50"><br>
+
+      <label>A:</label>
+      <input type="range" id="alpha_in" min="0" max="255" value="50"><br>
+      <hr>
+
+      <div id="backdrop"></div>
+
+      <label for="hex_out" id="hex_out_label">HEX:</label>
+      <input type="text" id="hex_out" readonly>
+
+    </form>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
